@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #ebe7ef;
+  background: radial-gradient(#280a48, #20043d);
+}
+
+main {
+  width: 90%;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.examples h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  color: #a18aba;
+  margin-bottom: 2rem;
+}
+
+.examples .info {
+  font-size: 1.3rem;
+}
+
+.examples .tab-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.examples .tab-content {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #2f1d43;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+}
+
+.examples .tab-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.examples .tab-content p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.examples .tab-content code {
+  font-size: 1.4rem;
+}

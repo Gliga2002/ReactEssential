@@ -1,0 +1,21 @@
+.examples .tab-button {
+  padding: 1rem 1.5rem;
+  background-color: transparent;
+  color: #a18aba;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.examples .tab-button:hover {
+  background-color: #140524;
+  color: #ebe7ef;
+}
+
+.examples .tab-button.active {
+  background-color: #7925d3;
+  color: #ebe7ef;
+}
